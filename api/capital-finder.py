@@ -12,7 +12,7 @@ class handler(BaseHTTPRequestHandler):
         dictionary=dict(query_string_list)
         
         if 'country' in dictionary:
-            word=dictionary['country']
+            country=dictionary['country']
             url = 'https://restcountries.com/v3.1/name/'
             r = requests.get(url + country)
             data = r.json()
