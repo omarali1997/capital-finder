@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "requests": "^0.3.0",
-    "urllib": "^3.5.0"
+    "urllib": "^3.5.0",
+    "vercel": "^28.4.12"
   }
 }
